@@ -1,11 +1,11 @@
 import {StyleSheet} from 'aphrodite'
 
 export enum FontFamily {
-  MONOSPACE = '"Source Code Pro", Courier, monospace',
+  MONOSPACE = '"Fira Code", "Source Code Pro", Courier, monospace',
 }
 
 export enum FontSize {
-  LABEL = 10,
+  LABEL = 9,
   TITLE = 12,
   BIG_BUTTON = 36,
 }
@@ -25,12 +25,12 @@ export enum Colors {
 }
 
 export enum Sizes {
-  MINIMAP_HEIGHT = 100,
+  MINIMAP_HEIGHT = 80,
   DETAIL_VIEW_HEIGHT = 150,
   TOOLTIP_WIDTH_MAX = 900,
   TOOLTIP_HEIGHT_MAX = 80,
-  SEPARATOR_HEIGHT = 2,
-  FRAME_HEIGHT = 20,
+  SEPARATOR_HEIGHT = 1,
+  FRAME_HEIGHT = 13,
   TOOLBAR_HEIGHT = 20,
   TOOLBAR_TAB_HEIGHT = TOOLBAR_HEIGHT - SEPARATOR_HEIGHT,
 }
